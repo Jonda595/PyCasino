@@ -49,7 +49,7 @@ while __name__ == '__main__':
     except:
         money = 0
 
-    print("Press ENTER to start!")
+    print(f"Press ENTER to start! {money} money")
     input()
 
     for i in range(50):
